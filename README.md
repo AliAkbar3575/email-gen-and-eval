@@ -10,10 +10,14 @@ Then go to the project root directory and run:
 ```
 conda create -n new_env
 conda activate new_env
+```
+Then create a ```.env``` file and put the key, which is provided in the last page of final_assessment_report.pdf (attached in the email). After putting the file, run the following commands:
+```
 pip install -r requirements.txt
 uvicorn api.routes:app --reload
 streamlit run main.py
 ```
+
 <img width="961" height="545" alt="Screenshot from 2026-06-19 08-25-58" src="https://github.com/user-attachments/assets/9d8eb152-d8ab-46b9-91d2-5d5be4162ecc" />
 
 Then provide ```user request``` and select ```model``` and click ```generate email```
