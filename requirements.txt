@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+streamlit
+requests
+python-dotenv
+pydantic
+langchain-core
+langchain-groq
+langgraph
+
+spacy
+bert-score
+sentence-transformers
+vaderSentiment
+textstat
+numpy
+# Optional for stronger spaCy NER:
+# python -m spacy download en_core_web_sm
